@@ -1,6 +1,8 @@
-Title: Find Maximum  
+Title: 
+Find Maximum  
 
-Difficulty: Easy  
+Difficulty: 
+Easy  
 
 Description:  
 Write a program that reads three integers and prints the largest one.  
