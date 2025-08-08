@@ -2,7 +2,6 @@
 
 Write a program that reads three integers and prints the largest one.
 
----
 
 ## 📋 Details  
 **Difficulty:** 🟢 Easy  
