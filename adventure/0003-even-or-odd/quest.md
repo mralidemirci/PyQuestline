@@ -1,25 +1,21 @@
-# 🗡️ Quest: Find Maximum
+# 🗡️ Quest #0004: Find Maximum
 
-**Difficulty:** 🟢 Easy  
-
----
-
-## 📜 Description  
 Write a program that reads three integers and prints the largest one.
 
 ---
 
-## 📥 Input  
+## 📋 Details  
+**Difficulty:** 🟢 Easy  
+
+**Input Example:**  
 ```
 5 9 2
 ```
 
-## 📤 Output  
+**Output Example:**  
 ```
 9
 ```
 
----
-
-## 📏 Constraints  
+**Constraints:**  
 - -10^9 <= numbers <= 10^9
