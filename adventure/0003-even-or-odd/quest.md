@@ -1,20 +1,19 @@
-# 🗡️ Quest #0004: Find Maximum
+# 🗡️ Quest #0003: Even or Odd
 
-Write a program that reads three integers and prints the largest one.
-
+Write a program that checks whether a given integer is even or odd.
 
 ## 📋 Details  
 **Difficulty:** 🟢 Easy  
 
 **Input Example:**  
 ```
-5 9 2
+7
 ```
 
 **Output Example:**  
 ```
-9
+Odd
 ```
 
 **Constraints:**  
-- -10^9 <= numbers <= 10^9
+- -10^9 <= number <= 10^9

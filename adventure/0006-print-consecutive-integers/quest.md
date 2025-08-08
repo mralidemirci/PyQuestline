@@ -1,13 +1,19 @@
-Title: Weird or Not Weird
-Difficulty: Easy
-Description: Given an integer n, perform the following conditional actions:
-- If n is odd, print "Weird".
-- If n is even and in the inclusive range of 2 to 5, print "Not Weird".
-- If n is even and in the inclusive range of 6 to 20, print "Weird".
-- If n is even and greater than 20, print "Not Weird".
+# 🗡️ Quest #0006: Print Consecutive Integers
 
-Input: 3
-Output: Weird
+Given an integer n, print the numbers from 1 to n consecutively on the same line without any spaces or separators.
 
-Constraints:
-- 1 <= n <= 100
+## 📋 Details  
+**Difficulty:** 🟢 Easy  
+
+**Input Example:**  
+```
+3
+```
+
+**Output Example:**  
+```
+123
+```
+
+**Constraints:**  
+- 1 <= n <= 150

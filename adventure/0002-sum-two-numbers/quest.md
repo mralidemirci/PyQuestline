@@ -1,17 +1,19 @@
-Title: 
-Sum Two Numbers 
+# 🗡️ Quest #0002: Sum Two Numbers
 
-Difficulty: 
-Easy 
+Write a program that takes two integers as input and prints their sum.
 
-Description: 
-Write a program that takes two integers as input and prints their sum. 
+## 📋 Details  
+**Difficulty:** 🟢 Easy  
 
-Input: 
-3 5 
+**Input Example:**  
+```
+3 5
+```
 
-Output: 
-8 
+**Output Example:**  
+```
+8
+```
 
-Constraints: 
-- -10^9 <= numbers <= 10^9 
+**Constraints:**  
+- -10^9 <= numbers <= 10^9
