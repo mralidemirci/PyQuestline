@@ -1,18 +1,23 @@
-theSentences = input().split()
-checkedWords = []
-theWord = ""
-maxCount = 1
+theList = input().split()
+uniqueWords = []
+theDict = {}
 
-for i in range(len(theSentences)):
-	wordCount = 1
-	for j in range(i+1, len(theSentences)):
-		if theSentences[i] == theSentences[j]:
-			wordCount += 1
-			if wordCount > maxCount:
-				maxCount = wordCount
-				theWord = theSentences[i]
-
-if maxCount == 1:
-    print("No repetitions found")
-else:
-    print(theWord)
+for word in theList:
+	found = False
+	for a in uniqueWords:
+		if word == a:
+			found = True
+			
+	if found != True:
+		uniqueWords.append(word)
+		
+for word in uniqueWords:
+	counter = 0
+	for a in theList:
+		if word == a:
+			counter += 1
+			
+	theDict[word] = counter
+	
+for key,value in theDict.items():
+	print(f"{key} : {value}")
