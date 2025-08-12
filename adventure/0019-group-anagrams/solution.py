@@ -1,24 +1,27 @@
-theWord = input()
-checkedChars = {}
+count = int(input())
+wordList = []
+xList = []
+myDict = {}
 
-for i in range(len(theWord)):
-	counter = 1
-	if theWord[i] not in checkedChars:
-		for j in range(i+1 , len(theWord)):
-				if theWord[i] == theWord[j]:
-					counter += 1
-		checkedChars[theWord[i]] = counter
+for i in range(count):
+    wordList.append(input())
 
-counter = 0		
-for key,value in checkedChars.items():
-	if value != 1:
-		counter += 1
+for word in wordList:
+    xDict = {}
+    for i in word:
+        xDict[i] = xDict.get(i, 0) + 1
+    myDict[word] = xDict
 
-if counter == len(checkedChars):
-	print("None")
+tempWordList = wordList.copy()
 
-elif counter != len(checkedChars):
-	for key,value in checkedChars.items():
-		if value == 1:
-			print(key)
-			break
+for i in range(len(wordList)):
+    printList = []
+    if wordList[i] in tempWordList:
+        printList.append(wordList[i])
+        for j in range(i + 1, len(wordList)):
+            if myDict[wordList[i]] == myDict[wordList[j]]:
+                printList.append(wordList[j])
+    if printList:
+        print(*printList)
+    for item in printList:
+        tempWordList.remove(item)
